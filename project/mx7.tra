@@ -1,0 +1,29 @@
+*** Creating Trace Output File 'mx7.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\startup_lpc11xx.o"'
+### List of Objects: adding '"core_cm0.o"'
+### List of Objects: adding '"ahb_clock_ctrl.o"'
+### List of Objects: adding '"lpc11cxx_gpio.o"'
+### List of Objects: adding '"system_lpc11xx.o"'
+### List of Objects: adding '"systick.o"'
+### List of Objects: adding '"test_clock_source.o"'
+### List of Objects: adding '"watchdog.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"interrupt.o"'
+### List of Objects: adding '"remap_interrupt.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\startup_lpc11xx.o" "core_cm0.o" "ahb_clock_ctrl.o" "lpc11cxx_gpio.o" "system_lpc11xx.o" "systick.o" "test_clock_source.o" "watchdog.o" "main.o" "interrupt.o" "remap_interrupt.o" --strict --scatter "mx7.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\mx7.map" -o "mx7.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'mx7.axf'
+### ADS-LD Command File: 'mx7.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'mx7.lnp', Handle=0x0000075C
+### Writing '.lnp' file
+### ADS-LD Command file 'mx7.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

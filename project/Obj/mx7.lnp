@@ -1,0 +1,4 @@
+--cpu Cortex-M0 ".\obj\startup_lpc11xx.o" ".\obj\core_cm0.o" ".\obj\ahb_clock_ctrl.o" ".\obj\lpc11cxx_gpio.o" ".\obj\system_lpc11xx.o" ".\obj\systick.o" ".\obj\test_clock_source.o" ".\obj\watchdog.o" ".\obj\main.o" ".\obj\lib.o" ".\obj\interrupt.o" ".\obj\remap_interrupt.o" ".\obj\uart_drv.o" ".\obj\retarget.o" ".\obj\mpu.o" ".\obj\mpu_rx.o" ".\obj\mpu_tx.o" ".\obj\main_power.o" ".\obj\mpu_power.o" ".\obj\can_power.o" ".\obj\message.o" ".\obj\can.o" ".\obj\can_drv.o" ".\obj\can_tx.o" ".\obj\can_rx.o" --library_type=microlib --strict --scatter ".\Obj\mx7.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\mx7.map" -o ".\Obj\mx7.axf"
